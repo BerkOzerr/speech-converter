@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Text to Speech Converter</h1>
+      <textarea
+        name="words"
+        id="words"
+        placeholder="Text here..."
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div class="row">
+        <select id="select"></select>
+        <button id="listen">
+          <span class="material-symbols-outlined"> play_arrow </span>Listen
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
